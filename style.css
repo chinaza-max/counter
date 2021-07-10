@@ -32,23 +32,20 @@
     box-shadow: 0px 7px  18px   black;
 }
 #container h1{ 
-  color: white;
-  text-align: center;
-  margin-top: 40px;
-
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    color: white;
+    text-align: center;
 }
 #display{ 
     color: green;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 15%;
     font-weight: 800;
     font-size: 110px;
 }
-#container h1{ 
-    color: white;
-    text-align: center;
-  
-}
+
 #lowerContainer{
     text-align: center;
     background-color: #0D2C54;
@@ -60,7 +57,7 @@
     border-radius: 5px;
     box-shadow: 0px 7px  18px   black;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20%;
 }
 #lowerContainer:active{
    background-color: burlywood;
@@ -81,10 +78,19 @@
     color: white;
     margin: 0 auto;
     box-shadow: 0px 7px  18px   black;
-    margin-top: 30px;
+    margin-top:10%;
       border-radius: 5px;
     background-color: #0D2C54;
 }
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:1024px){
     #center{
         width: 90%;
@@ -93,21 +99,93 @@
         margin-top: 30px;
         background-color: #B4946B;
     }
+    
     #container{
-        
         width: 70%;
         height: 80%;
         margin:57px auto auto auto;
         background-color: #B4946B;
         border: 2px solid rgb(248, 248, 248);
     }
+    #container h1{ 
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        color: white;
+        text-align: center;
+        font-size: 70px;
+    }
     #display{ 
-      
-        margin-top: 30px;
-        font-weight: 800;
-        font-size: 100px;
+        margin-top: 20%;
+        font-weight: 1000;
+        font-size: 190px;
     }
     #lowerContainer{
-        margin-top: 20px;
+        margin-top: 25%;
+    }
+    #addContainer{
+        margin-top:10%;
+    }
+    #lowerContainer{
+        width: 240px;
+        height: 60px;
+        line-height: 60px;
+        margin-top: 25%;
+    }
+    #addContainer{
+        width: 190px;
+        height: 40px;
+        line-height: 40px;
+        box-shadow: 0px 7px  18px   black;
+        margin-top:10%;
+       
     }
 }
+
+
+
+
+@media screen and (max-width:800px){
+    #center{
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: #B4946B;
+    }
+    
+    #container{
+        width: 70%;
+        height: 80%;
+        margin:57px auto auto auto;
+        background-color: #B4946B;
+        border: 2px solid rgb(248, 248, 248);
+    }
+    #container h1{ 
+        color: white;
+        text-align: center;
+        margin-top: 15%;
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    #display{ 
+        margin-top: 20%;
+        font-weight: 900;
+        font-size: 130px;
+        font-size: 90px;
+    }
+    #lowerContainer{
+        margin-top: 25%;
+        width: 150px;
+        height: 42px;
+        line-height: 45px;
+    }
+    #addContainer{
+        margin-top:10%;
+        width: 115px;
+        height: 22px;
+        line-height: 25px;
+    }
+}
+
