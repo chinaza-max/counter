@@ -1,5 +1,4 @@
 let message=document.getElementById("display")
-let count=0;
 document.getElementById("lowerContainer").addEventListener("click",lowerContainer)
 document.getElementById("addContainer").addEventListener("click",addContainer)
 function lowerContainer(){
