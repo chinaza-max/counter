@@ -16,7 +16,7 @@ function lowerContainer(){
 function addContainer(){
     let num=document.getElementById('display').textContent;
     num=parseInt(num)
-    if(num<=14){
+    if(num<=49){
         num++;
         
         message.innerHTML=num
